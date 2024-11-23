@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table,
+        th,
+        td,
+        tr {
+            border: 1px solid black;
+            border-collapse:collapse;
+            text-align: center;
+            font-weight:bold;
+            font-size:25px;
+            
+        }
+
+        th {
+            background-color: aqua;
+
+        }
+        td{
+            color:red;
+        }
+        </style>
+   
+    <title>Table Decoration</title>
+
+</head>
+<body style="padding:100px;">
+    <table style="width:100%;">
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>A</td>
+                <td colspan="2">B</td>
+                <td colspan="2">C</td>
+        </tr>
+        <tr style="height:50px;">
+            <td></td>
+            <td colspan="2" rowspan="4"></td>
+            <td colspan="2" rowspan="6"></td>
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+            <td>D</td>
+        </tr>
+        
+        <tr style="height: 30px;">
+            <td rowspan="8"></td>
+        </tr>
+        <tr>
+            <td colspan="2">E</td>
+        </tr>
+       
+        <tr style="height:70px;">
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>F</td>
+            <td colspan="2">G</td>
+            <td>H</td>
+        </tr>
+       <tr style="height:100px;">
+        <td></td>
+         <td colspan="2"></td>
+         <td></td>
+       </tr>
+       
+    </table>
+</body>
+</html>
